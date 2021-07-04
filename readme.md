@@ -13,10 +13,12 @@ The Notebooks are intendende to be run with Python3. While none of the "newer" f
 ### 3rd party libraries:
 Besides the usual "Data Science Stack" (numpy, pandas, sklearn), mostly pgmpy and networkx for graph visualization
 A version pinned requirements.txt file is provided.
+
 To recreate such an environment, do  - with python3-venv installed -
-'''
+
+```
 python3 -m venv caus_inf_env
 source caus_inf_env/bin/activate
 pip install -r requirements.txt
-'''
+```
 
